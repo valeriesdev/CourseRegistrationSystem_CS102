@@ -18,7 +18,7 @@ The Main method has an activeUser, and data variable, as well as a function to l
 
 Most of the code within the AdminWindow and StudentWindow is simply code dictating the placing and formatting of elements on the screen. However, in both classes, there is a relevant set of methods called the eventListeners. The eventListeners are called whenever their respective button, tab, or list element is selected. Then, the eventListener calls the relevant Student or Admin function through Main.activeUser.
 
-The program utilzies the following OOP concepts:
+## The program utilzies the following OOP concepts:
 ▪ Method overloading
 Method overloading can be seen throughout my program in the constructors of the various classes, for example Admin, Student, Course. This allows a user to be created that has no information, by calling new User() or instantiating that user with given information, such as a name and password.
 ▪ Method overriding (at least two examples)
