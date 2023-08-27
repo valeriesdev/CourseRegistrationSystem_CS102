@@ -4,6 +4,7 @@ A Course Registration System created for CS102 Data Structures in the Spring of 
 The initial username and password for the admin account is admin and admin001.
 
 ![image](https://github.com/valeriesdev/CourseRegistrationSystem_CS102/assets/136139599/a447f44e-7c14-4169-8df2-09d6df0ae60c)
+
 In the diagram above, a dotted pointed arrow representing an Interface is implemented in the class which is being pointed to. A solid pointed arrow represents that a class is inherited by the class that it is being pointed to. A solid line with no arrow represents a relationship or connection between classes. For example: In the class Main, the variable activeUser of type User exists, therefore a solid line with no arrow connects Main to User.
 
 The workflow of the program can be understood through the above diagram. As you can see the Admin and Student class inherit from the User class and implements from each respective interface. The Admin course allows the Admin user to modify the course registry, add new students, and see multiple different reports. Any Admin method that modifies the course registry or the user registry operates directly on the relevant ArrayList through Main.data. The report functions work by returning a String[] or String[][] to the AdminWindow class to be output to the GUI. 
